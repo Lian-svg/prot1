@@ -9,16 +9,18 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       line-height: 1.6;
-      background-color: #fdfdfd;
+      background-color: #F5F3EA;
     }
 
     header {
-      background-color: #f4ff7a;
+      background-color: #E3DDCB;
       position: sticky;
       top: 0;
       z-index: 1000;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
+	
+
 
     .navbar {
       display: flex;
@@ -92,11 +94,11 @@
     }
 
     h1, h2 {
-      color: #333;
+      color: 	#2C3E50;
     }
 
     footer {
-      background-color: #f4ff7a;
+      background-color: #DAD2BD;
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
@@ -161,18 +163,25 @@
     <section id="projeler">
       <h2>Projeler</h2>
       <ul>
-        <li><strong>Drone CFD Simülasyonu:</strong> Ansys Fluent ile aerodinamik analiz | <a href="#">GitHub'da Görüntüle</a></li>
-        <li><strong>Mini Rüzgar Tüneli:</strong> Görsel duman akışı için küçük tünel tasarımı | <a href="#">GitHub'da Görüntüle</a></li>
-        <li><strong>İniş Takımı Analizi:</strong> 1800 kg’lık hava aracı için iniş takımı hesapları | <a href="#">GitHub'da Görüntüle</a></li>
-        <li><strong>Otel Rüzgar Akış Analizi:</strong> Çevresel CFD değerlendirmesi | <a href="#">GitHub'da Görüntüle</a></li>
-        <li><strong>Diş İmplantı Analizi:</strong> Açılı abutment'larda gerilme dağılımları | <a href="#">GitHub'da Görüntüle</a></li>
-        <li><strong>Diş Teli Yer Değiştirme:</strong> Maksiller dişler için yapısal analiz | <a href="#">GitHub'da Görüntüle</a></li>
+        <li><strong>Drone CFD Simülasyonu:</strong>| Ansys Fluent ile aerodinamik analiz | </li>
+        
+        <h3>Mini Rüzgar Tüneli Tasarımı</h3>
+			<p>|Hot Wheels arabaları için görsel dumanla akış davranışını inceleyen küçük ölçekli bir rüzgar tüneli tasarımı yapıldı.|</p>
+			<img src="ruzgar.png" alt="Mini rüzgar tüneli görseli" style="width:100%; max-width:600px; border-radius: 12px; margin-top: 10px;">
+
+		
+		
+		
+		<li><strong>İniş Takımı Analizi:</strong> | 1800 kg’lık hava aracı için iniş takımı hesapları | </li>
+        <li><strong>Otel Rüzgar Akış Analizi:</strong> | Çevresel CFD değerlendirmesi | </li>
+        <li><strong>Diş İmplantı Analizi:</strong> | Açılı abutment'larda gerilme dağılımları |</li>
+        <li><strong>Diş Teli Yer Değiştirme Analizi:</strong> | Maksiller dişler için yapısal analiz | </li>
       </ul>
     </section>
 
     <section id="cv">
-      <h2>CV</h2>
-      <p>Eğitim:</p>
+      <h2>Eğitim</h2>
+      
       <ul>
         <li>İstanbul Üniversitesi - Cerrahpaşa, Makine Mühendisliği (Lisans)</li>
         <li>İstanbul Üniversitesi - Cerrahpaşa, Makine Mühendisliği Anabilim Dalı (Yüksek Lisans)</li>
@@ -180,7 +189,24 @@
 
       <p>Teknik Alanlar: Yapısal analiz (FEA/FEM), Akışkanlar mekaniği (CFD), Ansys, SolidWorks, OpenFOAM, Abaqus</p>
       <p>İlgi Alanları: 3D yazıcılar, drone sistemleri, fotoğrafçılık, yapay zekâ, savunma sanayi, turbojet motor tasarımı</p>
-      <p><a href="#">CV'yi İndir (PDF)</a></p>
+      <style>
+	.cv-button {
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #3E3C36; /* buton rengi */
+		color: white;
+		text-decoration: none;
+		border-radius: 8px;
+		font-weight: bold;
+		margin-top: 15px;
+		transition: background-color 0.3s ease;
+	}
+	.cv-button:hover {
+		background-color: #5A574E;
+	}
+	</style>
+	  <a href="cv_benn.pdf" download class="cv-button">CV'yi İndir (PDF)</a>
+
     </section>
 
     <section id="iletisim">
